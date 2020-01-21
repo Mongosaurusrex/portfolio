@@ -48,6 +48,15 @@ export const Contact = () => (
             ))}
           </Links>
         </li>
+        <li>
+          <a href="https://www.buymeacoffee.com/whBrdxS" target="_blank">
+            <img
+              src="https://cdn.buymeacoffee.com/buttons/default-blue.png"
+              alt="Buy Me A Coffee"
+              style={{ height: "51px", width: "217px" }}
+            />
+          </a>
+        </li>
       </ul>
     </Details>
     <Thumbnail>

@@ -16,7 +16,7 @@ export const TimeLine = () => (
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>
-          Backend and DevOps engieer, Paradox Interactive
+          Backend and DevOps engineer, Paradox Interactive
         </h3>
         <h4 style={{ "margin-bottom": "20px" }}>
           Games (consultant from MPYA Digital)

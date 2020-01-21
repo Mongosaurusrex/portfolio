@@ -7,9 +7,7 @@ export const StatusSymbol = styled.span`
   border-radius: 50%;
   display: inline-block;
 
-  ${({available})} =>
-    available &&
-    `
-      background-color: green;
-    `}
+  ${({ available }) => available && `
+    background: green;
+  `}
 `;

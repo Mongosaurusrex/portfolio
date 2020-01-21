@@ -1,24 +1,24 @@
-import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import { Container, Card } from 'components/common'
-import starIcon from 'assets/icons/star.svg'
-import forkIcon from 'assets/icons/fork.svg'
-import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import { Container, Card } from "components/common";
+import starIcon from "assets/icons/star.svg";
+import forkIcon from "assets/icons/fork.svg";
+import { Wrapper, Grid, Item, Content, Stats } from "./styles";
 
 export const Projects = () => {
   const {
     github: {
       viewer: {
-        repositories: { edges },
-      },
-    },
+        repositories: { edges }
+      }
+    }
   } = useStaticQuery(
     graphql`
       {
         github {
           viewer {
             repositories(
-              first: 8
+              first: 9
               orderBy: { field: STARGAZERS, direction: DESC }
             ) {
               edges {
@@ -38,7 +38,7 @@ export const Projects = () => {
         }
       }
     `
-  )
+  );
   return (
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
@@ -71,5 +71,5 @@ export const Projects = () => {
         ))}
       </Grid>
     </Wrapper>
-  )
-}
+  );
+};

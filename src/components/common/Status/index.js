@@ -1,20 +1,27 @@
-import React from 'react';
-
-import {StatusSymbol} from 'components/common';
-import {availableForAssignments} from 'data/config';
+import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import StatusTextWrapper from "./StatusTextWrapper";
+import { Button } from "components/common";
+import { StatusSymbol } from "components/common";
+import { availableForAssignments } from "data/config";
 
 export const Status = () => {
-  if (availableForAssignments) {
-    return (
-      <div>
-        <StatusSymbol available></StatusSymbol>
-        Available
-      </div>
-    );
-  }
   return (
     <div>
-      unavailable
+      <StatusSymbol available={availableForAssignments}></StatusSymbol>
+      {getStatusText()}
     </div>
   );
 };
+
+const getStatusText = () =>
+  availableForAssignments ? (
+    <StatusTextWrapper>
+      Available for hire{" "}
+      <Button as={AnchorLink} href="#contact">
+        Hire me!
+      </Button>
+    </StatusTextWrapper>
+  ) : (
+    <StatusTextWrapper>Unavailabe for hire right now</StatusTextWrapper>
+  );

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   padding: 4rem 0;
@@ -33,6 +33,15 @@ export const Details = styled.div`
     font-weight: normal;
     line-height: 1.3;
     color: #707070;
+  }
+
+  ul {
+    margin-bottom: 2.5rem;
+    font-size 18pt;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #707070;
+    list-style-type: none;
   }
 `;
 

@@ -17,11 +17,13 @@ export const Status = () => {
 const getStatusText = () =>
   availableForAssignments ? (
     <StatusTextWrapper>
-      Available for hire{" "}
+      Available for new assignments{" "}
       <Button as={AnchorLink} href="#contact">
         Hire me!
       </Button>
     </StatusTextWrapper>
   ) : (
-    <StatusTextWrapper>Unavailabe for hire right now</StatusTextWrapper>
+    <StatusTextWrapper>
+      Unavailabe for new assignments right now :(
+    </StatusTextWrapper>
   );

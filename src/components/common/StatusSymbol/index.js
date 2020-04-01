@@ -6,7 +6,6 @@ export const StatusSymbol = styled.span`
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  margin-left: 50px;
 
   ${({ available }) => available && `
     background: green;

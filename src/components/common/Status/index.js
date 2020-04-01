@@ -19,7 +19,7 @@ const getStatusText = () =>
     <StatusTextWrapper>
       Available for new assignments{" "}
       <Button as={AnchorLink} href="#contact">
-        Hire me!
+        Contact me!
       </Button>
     </StatusTextWrapper>
   ) : (

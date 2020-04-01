@@ -23,5 +23,5 @@ module.exports = {
     phone: "+467077604588"
   },
   foundingDate: "2020",
-  availableForAssignments: false
+  availableForAssignments: true
 };

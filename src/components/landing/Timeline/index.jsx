@@ -6,7 +6,34 @@ export const TimeLine = () => (
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="001"
-        dateText="09/2019 - Present"
+        dateText="04/2020 - 06/2020"
+        dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
+        bodyContainerStyle={{
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+        }}
+      >
+        <h3 style={{ "margin-bottom": "5px" }}>
+        Technical team lead, Vembla
+        </h3>
+        <h4 style={{ "margin-bottom": "20px" }}>
+          Retail (contractor from MPYA Digital)
+        </h4>
+        <p>
+          Vembla is a company that has a vision of delivering groceries to their customerswithin 60 minutes from order placement. Their app is tailored to suit the needs of everyday shopping and bigger monthly shopping orders.
+        </p>
+        <p>
+        Nathan joined as a technical teamleadin Vembla that is a relativelynewly created. The challenge with that situation was that the company had worked with external developers outside of Sweden with the development of two apps and two websites. The ambition was to establish a tech-department inhouse that owned the technical solution both as a knowledge and with allthe processes that comes with it.Besides building a tech-organizationNathan was also heavily involvedwith architectural and technical decisions and implementations of the mobile applications and backend services.
+        </p>
+        <p>
+          <b>Keywords:</b> Organizational Development, SCUM, Agile processes, Technical architecture, Knowledge sharing, Leadership, Docker, React Native, NodeJS, ExpressJs,Kubernetes, Amazon Web Services (S3, EC2, Faregate),  Microservice Architecture
+        </p>
+      </TimelineItem>
+      <TimelineItem
+        key="001"
+        dateText="09/2019 - 04/2020"
         dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
         bodyContainerStyle={{
           background: "#ddd",
@@ -19,7 +46,7 @@ export const TimeLine = () => (
           Backend and DevOps engineer, Paradox Interactive
         </h3>
         <h4 style={{ "margin-bottom": "20px" }}>
-          Games (consultant from MPYA Digital)
+          Games (contractor from MPYA Digital)
         </h4>
         <p>
           Paradox Interactive is a mayor player among the big game development
@@ -33,8 +60,8 @@ export const TimeLine = () => (
         </p>
         <p>
           <b>
-            Since this is my current assignment and I am under a code of
-            disclosure I am not allowed to talk about what I do at my current
+            Since this assignment is under a code of
+            disclosure I am not allowed to talk about what I did at this
             assignment
           </b>
         </p>
@@ -102,7 +129,7 @@ export const TimeLine = () => (
       >
         <h3 style={{ "margin-bottom": "5px" }}>Frontend developer, Axfood</h3>
         <h4 style={{ "margin-bottom": "20px" }}>
-          E-commerce (Consultant from Claremont AB)
+          E-commerce (contractor from Claremont)
         </h4>
         <p>
           AxFood is a big player in retail and commerce in Sweden offering

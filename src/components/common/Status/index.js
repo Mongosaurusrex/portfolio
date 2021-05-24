@@ -24,6 +24,6 @@ const getStatusText = () =>
     </StatusTextWrapper>
   ) : (
     <StatusTextWrapper>
-      Unavailabe for new assignments right now :(
+      Unavailabe for new assignments right now 😢
     </StatusTextWrapper>
   );

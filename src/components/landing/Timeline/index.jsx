@@ -19,7 +19,7 @@ export const TimeLine = () => (
 	  Backend engineer, Flowbox 
         </h3>
         <h4 style={{ "margin-bottom": "20px" }}>
-          Medtech (Contractor from MPYA Digital)
+          Marketing/Social Media (Contractor from MPYA Digital)
         </h4>
         <p>
 	  Flowbox tries to be a social media content handling platform which you could post, collect, curate and store media and files that comes from various social media platforms. An all in all tool for social media managers or marketering people at companies.

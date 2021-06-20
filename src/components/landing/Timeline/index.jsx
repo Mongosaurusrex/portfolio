@@ -6,6 +6,63 @@ export const TimeLine = () => (
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="001"
+        dateText="12/2020 - Present"
+        dateInnerStyle={{ background: "#FF7700", color: "#FFF" }}
+        bodyContainerStyle={{
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+        }}
+      >
+        <h3 style={{ "margin-bottom": "5px" }}>
+	  Backend engineer, Flowbox 
+        </h3>
+        <h4 style={{ "margin-bottom": "20px" }}>
+          Medtech (Contractor from MPYA Digital)
+        </h4>
+        <p>
+	  Flowbox tries to be a social media content handling platform which you could post, collect, curate and store media and files that comes from various social media platforms. An all in all tool for social media managers or marketering people at companies.
+        </p>
+        <p>
+	  I joined as a backend engineer to a team that handles publishing content and collecting insights to various mayor social media platforms. The challenge consists of both refactoring and building upon the existing solution but also to plan in terms of architecture and scalability for a future rerelease of a new 2.0 version of the features that the team owns. 
+        </p>
+        <p>
+          <b>Keywords:</b> Python, Flask, AWS, AWS Lambdas, Docker, PyCharm, pip, Marshmallow, OpenAPI, Architecture 
+        </p>
+      </TimelineItem>
+
+
+      <TimelineItem
+        key="001"
+        dateText="08/2020 - 12/2020"
+        dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
+        bodyContainerStyle={{
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+        }}
+      >
+        <h3 style={{ "margin-bottom": "5px" }}>
+        Technical team lead, Vacci
+        </h3>
+        <h4 style={{ "margin-bottom": "20px" }}>
+          Medtech (Contractor from MPYA Digital)
+        </h4>
+        <p>
+          Vacci is a company that tries to automate vaccination suggestions and booking through their website, with a form it can determine which vaccines you should take or/and boost depending on where you should travel and what lifestyle you have. 
+        </p>
+        <p>
+	  I joined as a technical team lead during the initial phases of the company where the product had to be written from scratch. The challenge consisted of trying to fit a product that both solved the requirements from a user perspective but also should be interesting enough so that potential investors could see any value in it. I could choose any techniques that I liked both from a scalability perspective but also from a potential "ease of recruitment" perspective. 
+        </p>
+        <p>
+          <b>Keywords:</b> ReactJS, AWS Amplify, GraphQL, Apollo Client, Apollo server, AWS Lambas, Docker, webpack 
+        </p>
+      </TimelineItem>
+
+      <TimelineItem
+        key="001"
         dateText="04/2020 - 06/2020"
         dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
         bodyContainerStyle={{
@@ -25,7 +82,7 @@ export const TimeLine = () => (
           Vembla is a company that has a vision of delivering groceries to their customerswithin 60 minutes from order placement. Their app is tailored to suit the needs of everyday shopping and bigger monthly shopping orders.
         </p>
         <p>
-        Nathan joined as a technical teamleadin Vembla that is a relativelynewly created. The challenge with that situation was that the company had worked with external developers outside of Sweden with the development of two apps and two websites. The ambition was to establish a tech-department inhouse that owned the technical solution both as a knowledge and with allthe processes that comes with it.Besides building a tech-organizationNathan was also heavily involvedwith architectural and technical decisions and implementations of the mobile applications and backend services.
+        I joined as a technical teamlead in Vembla that is a relatively newly created company. The challenge with that situation was that the company had worked with external developers outside of Sweden with the development of two apps and two websites. The ambition was to establish a tech-department inhouse that owned the technical solution both as a knowledge and with all the processes that comes with it. Besides building a tech-organization I was also heavily involved with architectural and technical decisions and implementations of the mobile applications and backend services.
         </p>
         <p>
           <b>Keywords:</b> Organizational Development, SCUM, Agile processes, Technical architecture, Knowledge sharing, Leadership, Docker, React Native, NodeJS, ExpressJs,Kubernetes, Amazon Web Services (S3, EC2, Faregate),  Microservice Architecture

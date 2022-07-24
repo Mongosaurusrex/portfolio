@@ -6,7 +6,7 @@ export const TimeLine = () => (
     <Timeline lineColor={"#ddd"}>
       <TimelineItem
         key="001"
-        dateText="12/2020 - 01/2022"
+        dateText="03/2022 - Present"
         dateInnerStyle={{ background: "#FF7700", color: "#000" }}
         bodyContainerStyle={{
           background: "#ddd",

@@ -7,31 +7,74 @@ export const TimeLine = () => (
       <TimelineItem
         key="001"
         dateText="12/2020 - 01/2022"
+        dateInnerStyle={{ background: "#FF7700", color: "#000" }}
+        bodyContainerStyle={{
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
+        }}
+      >
+        <h3 style={{ "margin-bottom": "5px" }}>
+          Interim Head of Engineering and later technical team lead, Quizrr
+        </h3>
+        <h4 style={{ "margin-bottom": "20px" }}>
+          Edtech (Contractor from MPYA Digital transferring to Employee as of
+          08/2022)
+        </h4>
+        <p>
+          Quizrr is a company that tries to create knowledge and a change on the
+          supply chains for manufacturing. Through a tailored and efficient
+          training content the app aims to create a change and an impact in a
+          field that is filled with injustice
+        </p>
+        <p>
+          I joined as a interim head of engineering meanwhile the ordinary was
+          on parental leave. I helped the company grow and continue its path
+          technically. Being in charge of around 12 employees I oversaw the
+          growth of the company and oversaw the growth of the company's
+          technical team. Later I accepted a job as a full time employee which
+          the role transitioned to a technical team lead.
+        </p>
+        <p>
+          <b>Keywords:</b> Strategy, GDPR, Data Privacy, Data Security,
+          Leadership, NodeJS, React, AWS, Infrastructure
+        </p>
+      </TimelineItem>
+      <TimelineItem
+        key="001"
+        dateText="12/2020 - 01/2022"
         dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
         bodyContainerStyle={{
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 style={{ "margin-bottom": "5px" }}>
-	  Backend engineer, Flowbox 
-        </h3>
+        <h3 style={{ "margin-bottom": "5px" }}>Backend engineer, Flowbox</h3>
         <h4 style={{ "margin-bottom": "20px" }}>
           Marketing/Social Media (Contractor from MPYA Digital)
         </h4>
         <p>
-	  Flowbox tries to be a social media content handling platform which you could post, collect, curate and store media and files that comes from various social media platforms. An all in all tool for social media managers or marketering people at companies.
+          Flowbox tries to be a social media content handling platform which you
+          could post, collect, curate and store media and files that comes from
+          various social media platforms. An all in all tool for social media
+          managers or marketering people at companies.
         </p>
         <p>
-	  I joined as a backend engineer to a team that handles publishing content and collecting insights to various mayor social media platforms. The challenge consists of both refactoring and building upon the existing solution but also to plan in terms of architecture and scalability for a future rerelease of a new 2.0 version of the features that the team owns. 
+          I joined as a backend engineer to a team that handles publishing
+          content and collecting insights to various mayor social media
+          platforms. The challenge consists of both refactoring and building
+          upon the existing solution but also to plan in terms of architecture
+          and scalability for a future rerelease of a new 2.0 version of the
+          features that the team owns.
         </p>
         <p>
-          <b>Keywords:</b> Python, Flask, AWS, AWS Lambdas, Docker, PyCharm, pip, Marshmallow, OpenAPI, Architecture 
+          <b>Keywords:</b> Python, Flask, AWS, AWS Lambdas, Docker, PyCharm,
+          pip, Marshmallow, OpenAPI, Architecture
         </p>
       </TimelineItem>
-
 
       <TimelineItem
         key="001"
@@ -41,23 +84,31 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 style={{ "margin-bottom": "5px" }}>
-        Technical team lead, Vacci
-        </h3>
+        <h3 style={{ "margin-bottom": "5px" }}>Technical team lead, Vacci</h3>
         <h4 style={{ "margin-bottom": "20px" }}>
           Medtech (Contractor from MPYA Digital)
         </h4>
         <p>
-          Vacci is a company that tries to automate vaccination suggestions and booking through their website, with a form it can determine which vaccines you should take or/and boost depending on where you should travel and what lifestyle you have. 
+          Vacci is a company that tries to automate vaccination suggestions and
+          booking through their website, with a form it can determine which
+          vaccines you should take or/and boost depending on where you should
+          travel and what lifestyle you have.
         </p>
         <p>
-	  I joined as a technical team lead during the initial phases of the company where the product had to be written from scratch. The challenge consisted of trying to fit a product that both solved the requirements from a user perspective but also should be interesting enough so that potential investors could see any value in it. I could choose any techniques that I liked both from a scalability perspective but also from a potential "ease of recruitment" perspective. 
+          I joined as a technical team lead during the initial phases of the
+          company where the product had to be written from scratch. The
+          challenge consisted of trying to fit a product that both solved the
+          requirements from a user perspective but also should be interesting
+          enough so that potential investors could see any value in it. I could
+          choose any techniques that I liked both from a scalability perspective
+          but also from a potential "ease of recruitment" perspective.
         </p>
         <p>
-          <b>Keywords:</b> ReactJS, AWS Amplify, GraphQL, Apollo Client, Apollo server, AWS Lambas, Docker, webpack 
+          <b>Keywords:</b> ReactJS, AWS Amplify, GraphQL, Apollo Client, Apollo
+          server, AWS Lambas, Docker, webpack
         </p>
       </TimelineItem>
 
@@ -69,23 +120,35 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 style={{ "margin-bottom": "5px" }}>
-        Technical team lead, Vembla
-        </h3>
+        <h3 style={{ "margin-bottom": "5px" }}>Technical team lead, Vembla</h3>
         <h4 style={{ "margin-bottom": "20px" }}>
           Retail (contractor from MPYA Digital)
         </h4>
         <p>
-          Vembla is a company that has a vision of delivering groceries to their customerswithin 60 minutes from order placement. Their app is tailored to suit the needs of everyday shopping and bigger monthly shopping orders.
+          Vembla is a company that has a vision of delivering groceries to their
+          customerswithin 60 minutes from order placement. Their app is tailored
+          to suit the needs of everyday shopping and bigger monthly shopping
+          orders.
         </p>
         <p>
-        I joined as a technical teamlead in Vembla that is a relatively newly created company. The challenge with that situation was that the company had worked with external developers outside of Sweden with the development of two apps and two websites. The ambition was to establish a tech-department inhouse that owned the technical solution both as a knowledge and with all the processes that comes with it. Besides building a tech-organization I was also heavily involved with architectural and technical decisions and implementations of the mobile applications and backend services.
+          I joined as a technical teamlead in Vembla that is a relatively newly
+          created company. The challenge with that situation was that the
+          company had worked with external developers outside of Sweden with the
+          development of two apps and two websites. The ambition was to
+          establish a tech-department inhouse that owned the technical solution
+          both as a knowledge and with all the processes that comes with it.
+          Besides building a tech-organization I was also heavily involved with
+          architectural and technical decisions and implementations of the
+          mobile applications and backend services.
         </p>
         <p>
-          <b>Keywords:</b> Organizational Development, SCUM, Agile processes, Technical architecture, Knowledge sharing, Leadership, Docker, React Native, NodeJS, ExpressJs,Kubernetes, Amazon Web Services (S3, EC2, Faregate),  Microservice Architecture
+          <b>Keywords:</b> Organizational Development, SCUM, Agile processes,
+          Technical architecture, Knowledge sharing, Leadership, Docker, React
+          Native, NodeJS, ExpressJs,Kubernetes, Amazon Web Services (S3, EC2,
+          Faregate), Microservice Architecture
         </p>
       </TimelineItem>
       <TimelineItem
@@ -96,7 +159,7 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>
@@ -117,9 +180,8 @@ export const TimeLine = () => (
         </p>
         <p>
           <b>
-            Since this assignment is under a code of
-            disclosure I am not allowed to talk about what I did at this
-            assignment
+            Since this assignment is under a code of disclosure I am not allowed
+            to talk about what I did at this assignment
           </b>
         </p>
         <p>
@@ -135,7 +197,7 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>
@@ -181,7 +243,7 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>Frontend developer, Axfood</h3>
@@ -218,7 +280,7 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>
@@ -254,7 +316,7 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>
@@ -282,7 +344,7 @@ export const TimeLine = () => (
           background: "#ddd",
           padding: "20px",
           borderRadius: "8px",
-          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)"
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
         <h3 style={{ "margin-bottom": "5px" }}>

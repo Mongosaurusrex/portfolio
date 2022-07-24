@@ -8,7 +8,7 @@ module.exports = {
   socialLinks: {
     github: "https://github.com/mongosaurusrex",
     linkedin: "https://se.linkedin.com/in/nathan-dygant-8178159b",
-    instagram: "https://instagram.com/mongosaurusrex"
+    instagram: "https://instagram.com/mongosaurusrex",
   },
   googleAnalyticsID: "UA-88875900-4",
   themeColor: "#6b63ff",
@@ -16,12 +16,12 @@ module.exports = {
   address: {
     city: "Uppsala",
     country: "Sweden",
-    zipCode: "75326"
+    zipCode: "75326",
   },
   contact: {
     email: "nathan.dygant@gmail.com",
-    phone: "+467077604588"
+    phone: "+467077604588",
   },
   foundingDate: "2020",
-  availableForAssignments: true 
+  availableForAssignments: false,
 };

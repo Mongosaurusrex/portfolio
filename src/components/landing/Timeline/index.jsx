@@ -32,9 +32,11 @@ export const TimeLine = () => (
           I joined as a interim head of engineering meanwhile the ordinary was
           on parental leave. I helped the company grow and continue its path
           technically. Being in charge of around 12 employees I oversaw the
-          growth of the company and oversaw the growth of the company's
-          technical team. Later I accepted a job as a full time employee which
-          the role transitioned to a technical team lead.
+          growth of the company and the company's technical team meanwhile
+          trying to balance the scaling of the platform in conjunction with the
+          demands of scalability with the rise of user count. Later I accepted a
+          job as a full time employee which the role transitioned to a technical
+          team lead.
         </p>
         <p>
           <b>Keywords:</b> Strategy, GDPR, Data Privacy, Data Security,

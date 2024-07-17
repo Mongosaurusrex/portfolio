@@ -6,10 +6,10 @@ import UnderConstructionPage from './pages/UnderConstructionPage.vue';
 
 const routes = [
   { path: '/', name: 'home', component: WelcomePage },
-  { path: '/work-experience', component: WorkExperiencePage },
-  { path: '/passion-projects', component: UnderConstructionPage },
-  { path: '/certificates', component: UnderConstructionPage },
-  { path: '/contact', component: UnderConstructionPage }
+  { path: '/work-experience', name: 'work-experience', component: WorkExperiencePage },
+  { path: '/passion-projects', name: 'passion-projects', component: UnderConstructionPage },
+  { path: '/certificates', name: 'certificates', component: UnderConstructionPage },
+  { path: '/contact', name: 'contact', component: UnderConstructionPage }
 ];
 
 const router = createRouter({

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import data from '../data/config';
-import BackToHome from '../components/BackToHome.vue';
-import WorkExperienceItem from '../components/WorkExperienceItem.vue';
+import data from '@/data/config';
+import BackToHome from '@/components/BackToHome.vue';
+import WorkExperienceItem from '@/components/WorkExperienceItem.vue';
 </script>
 
 <script lang="ts">

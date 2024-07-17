@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import BackToHome from '../components/BackToHome.vue';
+import BackToHome from '@/components/BackToHome.vue';
 </script>
 
 <template>

@@ -1,8 +1,6 @@
 import './assets/main.css';
 
-import { createApp } from 'vue';
-import App from './App.vue';
-
+import { createApp, provide, h } from 'vue';
 import { OhVueIcon, addIcons } from 'oh-vue-icons';
 import {
   MdWork,
@@ -10,10 +8,14 @@ import {
   LaCertificateSolid,
   MdContactpage,
   BiArrowLeftSquareFill,
-  GiCrane
+  GiCrane,
+  PrSpinner
 } from 'oh-vue-icons/icons';
+import { DefaultApolloClient } from '@vue/apollo-composable';
 
+import App from './App.vue';
 import router from './router';
+import createApolloClient from './apollo';
 
 addIcons(
   MdWork,
@@ -21,7 +23,17 @@ addIcons(
   LaCertificateSolid,
   MdContactpage,
   BiArrowLeftSquareFill,
-  GiCrane
+  GiCrane,
+  PrSpinner
 );
 
-createApp(App).use(router).component('v-icon', OhVueIcon).mount('#app');
+createApp({
+  setup() {
+    provide(DefaultApolloClient, createApolloClient());
+  },
+
+  render: () => h(App)
+})
+  .use(router)
+  .component('v-icon', OhVueIcon)
+  .mount('#app');

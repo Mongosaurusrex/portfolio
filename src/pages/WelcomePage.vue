@@ -8,7 +8,7 @@ import IndexTree from '@/components/IndexTree.vue';
       <img alt="avatar" class="avatar" src="../assets/avatar.jpg" width="125" height="125" />
       <div class="wrapper">
         <div class="greetings">
-          <h1 class="green">Hello, I'm Nathan!</h1>
+          <h1 class="green">I'm Nathan!</h1>
           <h3>
             As a data engineer and software developer with a passion for data science and machine
             learning, I am dedicated to leverage data-driven methodologies to solve real-world

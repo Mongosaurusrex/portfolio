@@ -5,7 +5,6 @@ import { useQuery } from '@vue/apollo-composable';
 import { GET_PINNED_REPOS } from '../data/github';
 
 const { result, loading, error } = useQuery(GET_PINNED_REPOS);
-console.log(result);
 </script>
 
 <template>

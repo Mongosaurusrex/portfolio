@@ -5,7 +5,7 @@ import IndexItem from './IndexItem.vue';
 <template>
   <IndexItem link="/work-experience">
     <template #icon>
-      <v-icon name="md-work" />
+      <v-icon scale="1.5" name="md-work" />
     </template>
     <template #heading>Work experience</template>
     Where have I been working and what have I been doing?
@@ -13,7 +13,7 @@ import IndexItem from './IndexItem.vue';
 
   <IndexItem link="/passion-projects">
     <template #icon>
-      <v-icon name="fa-project-diagram" />
+      <v-icon scale="1.5" name="fa-project-diagram" />
     </template>
     <template #heading>Passion projects</template>
     What have I been working on in my free time?
@@ -21,7 +21,7 @@ import IndexItem from './IndexItem.vue';
 
   <IndexItem link="/certificates">
     <template #icon>
-      <v-icon name="la-certificate-solid" />
+      <v-icon scale="1.5" name="la-certificate-solid" />
     </template>
     <template #heading>Certificates</template>
     What certificates have I earned and what skills do they represent?
@@ -29,7 +29,7 @@ import IndexItem from './IndexItem.vue';
 
   <IndexItem link="/contact">
     <template #icon>
-      <v-icon name="md-contactpage" />
+      <v-icon scale="1.5" name="md-contactpage" />
     </template>
     <template #heading>Contact</template>
     How can you reach me? What are my social media profiles?

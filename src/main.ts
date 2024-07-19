@@ -9,7 +9,11 @@ import {
   MdContactpage,
   BiArrowLeftSquareFill,
   GiCrane,
-  PrSpinner
+  PrSpinner,
+  MdEmail,
+  BiGithub,
+  BiLinkedin,
+  BiMedium
 } from 'oh-vue-icons/icons';
 import { DefaultApolloClient } from '@vue/apollo-composable';
 
@@ -24,7 +28,11 @@ addIcons(
   MdContactpage,
   BiArrowLeftSquareFill,
   GiCrane,
-  PrSpinner
+  PrSpinner,
+  MdEmail,
+  BiGithub,
+  BiLinkedin,
+  BiMedium
 );
 
 createApp({

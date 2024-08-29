@@ -123,5 +123,15 @@ export default {
       As a single frontend developer I often took decisions upon the architecture and solutions of the front-end applications as a whole.`,
       buzzwords: 'HTML5, AngularJS, SASS, C#, .NET, EPI server, OctopusDeploy, Powershell'
     }
+  ],
+  certificates: [
+    {
+      title: 'Introduction to calculus',
+      seat: 'University of Sydney',
+      description:
+        'The course gives a solid foundation on the mathematical subject of calculus. The cource is going through the basics of calculus and how to apply it in various mathematical problems. With practical examples and exercises the course gives a good foundation for further studies in mathematics.',
+      date: '29th of August 2024',
+      link: 'https://coursera.org/share/2731641b2eacfaa2551551db8a770a18'
+    }
   ]
 };

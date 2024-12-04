@@ -126,10 +126,18 @@ export default {
   ],
   certificates: [
     {
+      title: 'Probability - The Science of Uncertainty and Data',
+      seat: 'Massachusetts Institute of Technology',
+      description:
+        'This comprehensive course dives deep into the field of probability, combining intuitive reasoning with rigorous mathematical analysis. It covers fundamental topics such as Bayes’ Theorem, discrete and continuous random variables, Bayesian inference, Poisson processes, and much more. The course emphasizes both understanding the underlying principles and applying them to real-world scenarios.',
+      date: '27th of December 2024',
+      link: 'https://www.mit.edu'
+    },
+    {
       title: 'Introduction to calculus',
       seat: 'University of Sydney',
       description:
-        'The course gives a solid foundation on the mathematical subject of calculus. The cource is going through the basics of calculus and how to apply it in various mathematical problems. With practical examples and exercises the course gives a good foundation for further studies in mathematics.',
+        'This course provides a solid introduction to the fundamentals of calculus, covering core concepts and their applications to a variety of mathematical problems. Through practical examples and exercises, it emphasizes both understanding and skill-building, making it an excellent foundation for further studies in mathematics and related fields.',
       date: '29th of August 2024',
       link: 'https://coursera.org/share/2731641b2eacfaa2551551db8a770a18'
     }

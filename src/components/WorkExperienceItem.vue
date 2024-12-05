@@ -4,7 +4,11 @@ const { jobTitle, link, company, dateRange, description, buzzwords } = definePro
   link: string;
   company: string;
   dateRange: string;
-  description: string;
+  description: {
+    body: string;
+    bullets: string[];
+    body2: string;
+  };
   buzzwords: string;
 }>();
 </script>
@@ -16,7 +20,13 @@ const { jobTitle, link, company, dateRange, description, buzzwords } = definePro
       <h4>{{ company }}</h4>
     </a>
     <p class="date">{{ dateRange }}</p>
-    <p class="description">{{ description }}</p>
+    <p class="description">{{ description.body }}</p>
+    <ul class="bullets">
+      <li :key="index" v-for="(bullet, index) in description.bullets">
+        {{ bullet }}
+      </li>
+    </ul>
+    <p class="description">{{ description.body2 }}</p>
     <p class="buzzwords"><span class="green">Buzzwords:</span> {{ buzzwords }}</p>
     <hr />
   </div>
@@ -24,8 +34,7 @@ const { jobTitle, link, company, dateRange, description, buzzwords } = definePro
 
 <style scoped>
 .job-title {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
   color: var(--color-heading);
 }
 .company {
@@ -45,6 +54,12 @@ const { jobTitle, link, company, dateRange, description, buzzwords } = definePro
   color: var(--color-heading);
 }
 .description {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.bullets {
   font-size: 1rem;
   margin-bottom: 0.5rem;
   color: var(--color-text);

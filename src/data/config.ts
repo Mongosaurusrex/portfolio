@@ -25,25 +25,40 @@ export default {
   availableForAssignments: false,
   experiences: [
     {
-      jobTitle: 'Team lead & Senior Data Engineer',
+      jobTitle: 'Data and Insights Team Lead',
       company: 'Quizrr',
       dateRange: 'February 2022 - Present',
       link: 'https://www.quizrr.se',
-      description: `Quizrr is a company that tries to create knowledge and a change on the supply chains in various business lanes. 
-      Through a tailored and efficient training content the app aims to create a change and an impact in a field that is filled with injustice.
-      I am currently leading the data and insights team in order to prove the impact that Quizrr tries to do with its training content.`,
+      description: {
+        body: 'Quizrr is a company focused on driving positive change in supply chains across various industries by delivering tailored training content. The platform aims to address injustices and create measurable impact in ethically challenging areas. As the Data and Insights Team Lead, I am responsible for leading efforts to quantify and demonstrate the impact of Quizrr’s training content. My responsibilities include:',
+        bullets: [
+          'Designing and implementing data-driven strategies to evaluate and showcase the effectiveness of the platform.',
+          'Leading the development of insightful analytics tools to support the company’s mission of creating measurable change in supply chains.',
+          'Collaborating with cross-functional teams to align data insights with Quizrr’s business goals and social impact objectives.',
+          'Ensuring the scalability and reliability of data solutions to support continued growth and expanded impact.'
+        ],
+        body2:
+          'This role combines leadership and technical expertise to drive evidence-based change in ethically sensitive business domains.'
+      },
       buzzwords:
         'Data engineering, Data science, Data analysis, Data visualization, Leadership, NodeJS, MongoDB, Python, Pandas, Numpy'
     },
     {
-      jobTitle: 'Backend engineer',
+      jobTitle: 'Data engineer',
       company: 'Flowbox',
       dateRange: 'December 2020 - January 2022',
       link: 'https://www.getflowbox.com',
-      description: `Flowbox tries to be a social media content handling platform which you could post, collect, curate and store media and files that comes from various social media platforms. 
-      An all in all tool for social media managers or marketering people at companies.
-      I joined as a backend engineer to a team that handles publishing content and collecting insights to various mayor social media platforms. 
-      The challenge consists of both refactoring and building upon the existing solution but also to plan in terms of architecture and scalability for a future rerelease of a new 2.0 version of the features that the team owns.`,
+      description: {
+        body: 'Flowbox is a social media content management platform that enables users to post, collect, curate, and store media from various social media platforms. It serves as an all-in-one tool for social media managers and marketers to streamline their workflows. As a data engineer, I was part of a team responsible for content publishing and generating insights across major social media platforms. My responsibilities included:',
+        bullets: [
+          'Refactoring and enhancing the existing backend solutions to improve performance and reliability.',
+          'Designing and implementing scalable architecture in preparation for a 2.0 release of the platform’s features.',
+          'Developing solutions to process and visualize meaningful aggregated insights from diverse social media platforms.',
+          'Collaborating with cross-functional teams to ensure seamless integration of publishing and analytics tools.'
+        ],
+        body2:
+          'This role required balancing maintenance of legacy systems with forward-thinking architectural planning to support future scalability and feature development.'
+      },
       buzzwords:
         'Python, Flask, Celery, AWS, AWS Lambdas, Docker, PyCharm, pip, Marshmallow, OpenAPI, Architecture'
     },
@@ -52,10 +67,17 @@ export default {
       company: 'Vacci',
       dateRange: 'August 2020 - December 2020',
       link: 'https://www.vacci.se',
-      description: `Vacci was a company that tried to automate vaccination suggestions and booking through their website, with a form it can determine which vaccines you should take or/and boost depending on where you should travel and what lifestyle you have.
-      I joined as a technical team lead during the initial phases of the company where the product had to be written from scratch. 
-      The challenge consisted of trying to fit a product that both solved the requirements from a user perspective but also should be interesting enough so that potential investors could see any value in it. 
-      I could choose any techniques that I liked both from a scalability perspective but also from a potential "ease of recruitment" perspective.`,
+      description: {
+        body: 'Vacci was an innovative startup focused on automating vaccination suggestions and booking through an online platform. By analyzing user input through a tailored form, the platform determined required or recommended vaccines based on travel plans and lifestyle. As a technical team lead, I joined during the company’s early stages, tasked with building the product from scratch. My responsibilities included:',
+        bullets: [
+          'Designing and developing a scalable technical architecture to support user-friendly vaccine recommendations and booking functionality.',
+          'Balancing user-centric requirements with the need to create a compelling product for potential investors',
+          'Selecting technologies and tools to optimize scalability, maintainability, and ease of recruitment for future growth.',
+          'Leading the technical implementation, ensuring the platform delivered value both to end-users and stakeholders.'
+        ],
+        body2:
+          'This role required a strategic mix of technical expertise and startup-driven problem-solving to create a viable and investor-attractive product.'
+      },
       buzzwords:
         'ReactJS, AWS Amplify, GraphQL, Apollo Client, Apollo server, AWS Lambas, Docker, webpack'
     },
@@ -64,23 +86,35 @@ export default {
       company: 'Vembla',
       dateRange: 'April 2020 - June 2020',
       link: 'https://vembla.se',
-      description: `Vembla is a company that has a vision of delivering groceries to their customerswithin 60 minutes from order placement. 
-      Their app is tailored to suit the needs of everyday shopping and bigger monthly shopping orders.
-      I joined as a technical teamlead in Vembla that is a relatively newly created company. 
-      The challenge with that situation was that the company had worked with external developers outside of Sweden with the development of two apps and two websites. 
-      The ambition was to establish a tech-department inhouse that owned the technical solution both as a knowledge and with all the processes that comes with it. 
-      Besides building a tech-organization I was also heavily involved with architectural and technical decisions and implementations of the mobile applications and backend services.`,
+      description: {
+        body: 'Vembla was a company that had a vision of delivering groceries to their customerswithin 60 minutes from order placement. Their app was tailored to suit the needs of everyday shopping and bigger monthly shopping orders. I joined as a technical teamlead in Vembla when they were a relatively newly created company. The challenge with that situation was that the company had worked with external developers outside of Sweden with the development of two apps and two websites. The ambition was to establish a tech-department inhouse that owned the technical solution both as a knowledge and with all the processes that comes with it. Besides building a tech-organization I was also heavily involved with architectural and technical decisions and implementations of the mobile applications and backend services.',
+        bullets: [
+          'Establishing a tech organization, creating processes, and ensuring knowledge transfer from external teams to internal stakeholders.',
+          'Making and implementing architectural and technical decisions for the mobile applications and backend services.',
+          'Leading the transition of technical ownership in-house, ensuring a scalable and sustainable development process.',
+          'Collaborating with stakeholders to align technical solutions with the company’s vision of fast, reliable grocery delivery.'
+        ],
+        body2:
+          'This role required balancing strategic leadership with hands-on technical involvement to position Vembla for long-term success in the competitive e-commerce market.'
+      },
       buzzwords:
-        'Organizational Development, SCUM, Agile processes, Technical architecture, Knowledge sharing, Leadership, Docker, React Native, NodeJS, ExpressJs,Kubernetes, Amazon Web Services (S3, EC2, Faregate), Microservice Architecture'
+        'Organizational Development, SCUM, Agile processes, Technical architecture, Knowledge sharing, Leadership, Docker, React Native, NodeJS, ExpressJs,Kubernetes, Amazon Web Services (S3, EC2, Fargate), Microservice Architecture'
     },
     {
       jobTitle: 'Backend & DevOps engineer',
       company: 'Paradox Interactive',
       dateRange: 'September 2019 - April 2020',
       link: 'https://www.paradoxinteractive.com/',
-      description: `Paradox Interactive is a mayor player among the big game development and publishing in the world. 
-      The focus of the games vary from action oriented to grand strategy and have a established fanbase from all across the globe.
-      Besides having a department for game development there is a need for web based services that can support the games that they release.`,
+      description: {
+        body: 'Paradox Interactive is a leading game development and publishing company known for its diverse portfolio, ranging from action-oriented games to grand strategy titles. With a dedicated fanbase spanning the globe, the company not only focuses on game development but also on web-based services to support its games and enhance the player experience. As part of the DevOps team, I contributed to building and maintaining web services that integrated seamlessly with the company’s game ecosystem. My responsibilities included:',
+        bullets: [
+          'Developing scalable and reliable web solutions to support game launches and player interactions.',
+          'Collaborating with cross-functional teams to ensure the web services aligned with game-specific requirements and community needs.',
+          'Ensuring smooth deployment and maintenance of the web-based tools critical to enhancing the player experience.'
+        ],
+        body2:
+          'These contributions supported Paradox Interactive’s mission to deliver engaging and immersive experiences for its global player base.'
+      },
       buzzwords:
         'JavaScript/ES7+, React, Redux, Node.js, ExpressJS, TDD, Jenkins, npm, Docker, Kubernetes, Terraform, AWS'
     },
@@ -89,38 +123,52 @@ export default {
       company: 'Doctrin',
       dateRange: 'April 2018 - September 2019',
       link: 'https://doctrin.com/',
-      description: `Doctrin is a startup offering a platform for patients seeking care in different health centers in a digital way. 
-      Given the public demand and the rapid growth of similar platforms, Doctrin needed to give a reliable experience for the health center personnel and the patients in order to solve the crisis that is in the Swedish healthcare.
-      With a rising demand from the primary healthcare centers to be able to handle a rising amount of patients without a bigger amount of staffing Doctrin decided to release “Flow”. 
-      Flow is a platform on the web that enables patient contact through an asynchronous way with chat, video and other tools in order to make the digital patient journey more effective and smooth. 
-      The challenge was to build a reliable and stable tool for both the healthcenters and the patients that was up to par with the competitors that also was in a way unique.
-      I joined as a full stack developer and joined a team that has responsibility for the part of the platform that is exposed to the caregivers. 
-      The role included everything from planning and requirements to architecture and development within both frontend and backend with addition of building and maintaining and expanding the CI/CD pipeline of the application.`,
+      description: {
+        body: 'Doctrin is a startup revolutionizing patient care by offering a digital platform that connects patients with healthcare centers. In response to the growing demand for efficient healthcare solutions, Doctrin launched Flow, a web-based platform enabling asynchronous patient interactions through chat, video, and other tools. This platform aimed to alleviate the strain on Swedish healthcare by helping primary care centers manage a growing patient load without increasing staffing. As a full stack developer, I contributed to the development and maintenance of the caregiver-facing section of the platform. My responsibilities included',
+        bullets: [
+          'Planning and defining requirements to ensure the platform met the needs of both caregivers and patients.',
+          'Architecting and developing features for both the frontend and backend components of the application.',
+          'Building, maintaining, and expanding the CI/CD pipeline, ensuring seamless and efficient deployments.',
+          'Collaborating with the team to deliver a stable, reliable, and competitive platform that stood out in a rapidly growing market.'
+        ],
+        body2:
+          'The result was a platform that not only improved the efficiency of digital patient journeys but also supported healthcare centers in managing patient demand effectively.'
+      },
       buzzwords:
         'JavaScript/ES7+, React, Redux, Node.js, HapiJS, KoaJS, SenecaJS, MongoDB, Mongoose, RabbitMQ, Redis, JSON, JWT, REST API, npm, Git, Bitbucket, Visual Studio Code, VIM'
     },
     {
       jobTitle: 'Frontend developer',
       company: 'Axfood',
-      dateRange: 'February 2017 - September 2018',
+      dateRange: 'February 2017 - April 2018',
       link: 'https://www.axfood.com/',
-      description: `AxFood is a big player in retail and commerce in Sweden offering brands and various point of sales in whole of Sweden. 
-      The most popular brands are Willys and Hemköp, which offer shops for day to day consumption all over Sweden.
-      I joined the Willys.se and Hemköp.se e-commerce teams as a frontend developer. 
-      The purpose of the project was to migrate the existing EPI commerce solution into a SAP/Hybris solution. 
-      With a team separated in back/frontend and a QA team, a new site was built separately for Hemköp and Willys, with its strength of now being integrated with the whole business of Axfood. 
-      My role included building the experience for the customers when shopping at the web and planning and execution of the communication and architecture with the hybrid app that a IOS/Android team was building simultaneously.`,
+      description: {
+        body: `Axfood is a leading retail and commerce company in Sweden, known for popular brands such as Willys and Hemköp, which offer day-to-day consumer goods across the country. I joined the Willys.se and Hemköp.se e-commerce teams as part of an ambitious project to migrate the existing EPI Commerce solution into a SAP/Hybris platform. The project involved cross-functional collaboration between frontend and backend developers, QA teams, and a separate iOS/Android team. My responsibilities included:`,
+        bullets: [
+          'Building user experiences for customers shopping on the newly developed websites for Willys and Hemköp.',
+          'Planning and executing communication and architecture for seamless integration with a hybrid mobile app developed concurrently by the mobile team.',
+          'Ensuring smooth migration of the e-commerce platform, leveraging the strength of integration with Axfood’s broader business systems.'
+        ],
+        body2:
+          'The outcome was the launch of modern, scalable e-commerce solutions that enhanced Axfood’s digital presence and customer shopping experience.'
+      },
       buzzwords: 'JavaScript, AngularJS, Event driven Architecture, Swift, Java, Jasmine, Selenium'
     },
     {
       jobTitle: 'Frontend developer',
       company: 'Visma Consulting',
-      dateRange: 'August 2018 - February 2017',
+      dateRange: 'August 2016 - February 2017',
       link: 'https://www.twoday.se/',
-      description: `Visma consulting is a business that offers consultants to mostly the public sector in Sweden and internally in the Visma group which in turn offer various business related products (Accounting, Sales, BI-tools etc.)
-      I joined a .NET heavy team that focused mainly in the EPIserver framework that had customers like Apoteket Hjärtat, Visma Retail and Stockholms stad. 
-      The role included developing mainly in a frontend part an integration between single page applications and a EPIserver backend in Apoteket Hjärtat, Stockholms stad and internal projects in the Visma group. 
-      As a single frontend developer I often took decisions upon the architecture and solutions of the front-end applications as a whole.`,
+
+      description: {
+        body: 'As part of a .NET-focused team, I worked on projects for high-profile clients such as Apoteket Hjärtat, Visma Retail, and Stockholms Stad, specializing in frontend development and integrations with EPIserver backends. My responsibilities included:',
+        bullets: [
+          'Designing and implementing scalable frontend architectures for SPAs.',
+          'Designing and implementing scalable frontend architectures for SPAs.',
+          'Delivering business-critical tools for both public sector and internal Visma group projects.'
+        ],
+        body2: ''
+      },
       buzzwords: 'HTML5, AngularJS, SASS, C#, .NET, EPI server, OctopusDeploy, Powershell'
     }
   ],

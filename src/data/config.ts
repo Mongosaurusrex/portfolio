@@ -179,7 +179,7 @@ export default {
       description:
         'This comprehensive course dives deep into the field of probability, combining intuitive reasoning with rigorous mathematical analysis. It covers fundamental topics such as Bayes’ Theorem, discrete and continuous random variables, Bayesian inference, Poisson processes, and much more. The course emphasizes both understanding the underlying principles and applying them to real-world scenarios.',
       date: '27th of December 2024',
-      link: 'https://www.mit.edu'
+      link: 'https://courses.edx.org/certificates/a54052df661c415ab580db7b3184ef33'
     },
     {
       title: 'Introduction to calculus',

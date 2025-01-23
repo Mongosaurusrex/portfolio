@@ -164,7 +164,6 @@ export default {
         body: 'As part of a .NET-focused team, I worked on projects for high-profile clients such as Apoteket Hjärtat, Visma Retail, and Stockholms Stad, specializing in frontend development and integrations with EPIserver backends. My responsibilities included:',
         bullets: [
           'Designing and implementing scalable frontend architectures for SPAs.',
-          'Designing and implementing scalable frontend architectures for SPAs.',
           'Delivering business-critical tools for both public sector and internal Visma group projects.'
         ],
         body2: ''
@@ -180,6 +179,14 @@ export default {
         'This comprehensive course dives deep into the field of probability, combining intuitive reasoning with rigorous mathematical analysis. It covers fundamental topics such as Bayes’ Theorem, discrete and continuous random variables, Bayesian inference, Poisson processes, and much more. The course emphasizes both understanding the underlying principles and applying them to real-world scenarios.',
       date: '27th of December 2024',
       link: 'https://courses.edx.org/certificates/a54052df661c415ab580db7b3184ef33'
+    },
+    {
+      title: 'Introduction to linear algebra',
+      seat: 'University of Sydney',
+      description:
+        'This course provides a solid introduction to the fundamentals of linear algebra, covering core concepts and their applications to a variety of mathematical problems. Through practical examples and exercises, it emphasizes both understanding and skill-building, making it an excellent foundation for further studies in mathematics and related fields',
+      date: '23rd of January 2025',
+      link: 'https://coursera.org/share/dba52bde502cccbc75a9855df486ed54'
     },
     {
       title: 'Introduction to calculus',

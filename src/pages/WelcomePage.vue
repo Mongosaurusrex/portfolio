@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import IndexTree from '@/components/IndexTree.vue';
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -10,9 +11,12 @@ import IndexTree from '@/components/IndexTree.vue';
         <div class="greetings">
           <h1 class="green">I'm Nathan!</h1>
           <h3>
-            As a data engineer and software developer with a passion for data science and machine
-            learning, I am dedicated to leverage data-driven methodologies to solve real-world
-            problems and drive impactful decision-making.
+            As a data engineer with a passion for data science and machine learning, I am dedicated
+            to leverage data-driven methodologies to solve real-world problems and drive impactful
+            decision-making.
+          </h3>
+          <h3 class="contact-link">
+            <RouterLink to="/contact">Contact me!</RouterLink>
           </h3>
         </div>
       </div>

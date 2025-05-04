@@ -27,11 +27,11 @@ import IndexItem from './IndexItem.vue';
     What certificates have I earned and what skills do they represent?
   </IndexItem>
 
-  <IndexItem link="/contact">
+  <IndexItem link="https://mongosaurusrex.substack.com/" external="true">
     <template #icon>
-      <v-icon scale="1.5" name="md-contactpage" />
+      <v-icon scale="1.5" name="bi-pencil-square" />
     </template>
-    <template #heading>Contact</template>
-    How can you reach me? What are my social media profiles?
+    <template #heading>Blog</template>
+    Sharing my thoughts and my ideas...
   </IndexItem>
 </template>

@@ -6,14 +6,14 @@ import {
   MdWork,
   FaProjectDiagram,
   LaCertificateSolid,
-  MdContactpage,
   BiArrowLeftSquareFill,
   GiCrane,
   PrSpinner,
   MdEmail,
   BiGithub,
   BiLinkedin,
-  BiMedium
+  BiMedium,
+  BiPencilSquare
 } from 'oh-vue-icons/icons';
 import { DefaultApolloClient } from '@vue/apollo-composable';
 
@@ -25,14 +25,14 @@ addIcons(
   MdWork,
   FaProjectDiagram,
   LaCertificateSolid,
-  MdContactpage,
   BiArrowLeftSquareFill,
   GiCrane,
   PrSpinner,
   MdEmail,
   BiGithub,
   BiLinkedin,
-  BiMedium
+  BiMedium,
+  BiPencilSquare
 );
 
 createApp({

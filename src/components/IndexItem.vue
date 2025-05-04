@@ -1,22 +1,33 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router';
 
-const { link = '/' } = defineProps<{
+const { link = '/', external = false } = defineProps<{
   link?: string;
+  external?: boolean;
 }>();
 </script>
 
 <template>
-  <RouterLink class="clear-link" :to="link">
+  <a v-if="external" :href="link" class="clear-link" target="_blank" rel="noopener">
     <div class="item">
       <i>
         <slot name="icon"></slot>
       </i>
       <div class="details">
-        <h3>
-          <slot name="heading"></slot>
-        </h3>
-        <slot></slot>
+        <h3><slot name="heading" /></h3>
+        <slot />
+      </div>
+    </div>
+  </a>
+
+  <RouterLink v-else :to="link" class="clear-link">
+    <div class="item">
+      <i>
+        <slot name="icon"></slot>
+      </i>
+      <div class="details">
+        <h3><slot name="heading" /></h3>
+        <slot />
       </div>
     </div>
   </RouterLink>

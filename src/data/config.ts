@@ -173,7 +173,15 @@ export default {
   ],
   certificates: [
     {
-      title: 'Probability - The Science of Uncertainty and Data',
+      title: '(6.86) Machine Learning with Python-From Linear Models to Deep Learning',
+      seat: 'Massachusetts Institute of Technology',
+      description:
+      'This course provides a comprehensive exploration of machine learning principles and applications. It covers the full spectrum of machine learning, starting with linear models and extending to deep learning architectures. Key topics include supervised and unsupervised learning, support vector machines, neural networks, and optimization techniques. The course also emphasizes practical implementations using Python, enabling hands-on experience with real-world datasets and model development. Through rigorous exercises and projects, students gain a robust understanding of both the theory and application of modern machine learning techniques.',
+      date: '18th of May 2025',
+      link: 'https://courses.edx.org/certificates/ff5763af098847a89c6ab7b15994df28',
+    },
+    {
+      title: '(6.431) Probability - The Science of Uncertainty and Data',
       seat: 'Massachusetts Institute of Technology',
       description:
         'This comprehensive course dives deep into the field of probability, combining intuitive reasoning with rigorous mathematical analysis. It covers fundamental topics such as Bayes’ Theorem, discrete and continuous random variables, Bayesian inference, Poisson processes, and much more. The course emphasizes both understanding the underlying principles and applying them to real-world scenarios.',

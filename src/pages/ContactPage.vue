@@ -17,8 +17,8 @@ import BackToHome from '../components/BackToHome.vue';
         </a>
       </div>
       <div class="item">
-        <a href="https://medium.com/@mongosaurusrex" target="_blank">
-          <v-icon scale="7 " name="bi-medium" />
+        <a href="https://www.kaggle.com/mongosaurusrex" target="_blank">
+          <v-icon scale="7 " name="co-kaggle" />
         </a>
       </div>
       <div class="item">

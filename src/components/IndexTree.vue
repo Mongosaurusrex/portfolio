@@ -27,7 +27,7 @@ import IndexItem from './IndexItem.vue';
     What certificates have I earned and what skills do they represent?
   </IndexItem>
 
-  <IndexItem link="https://mongosaurusrex.substack.com/" external="true">
+  <IndexItem link="/posts">
     <template #icon>
       <v-icon scale="1.5" name="bi-pencil-square" />
     </template>

@@ -19,7 +19,8 @@
     "graphql-tag": "^2.12.6",
     "oh-vue-icons": "^1.0.0-rc3",
     "vue": "^3.4.29",
-    "vue-router": "^4.4.0"
+    "vue-router": "^4.4.0",
+    "vue3-notion": "^0.1.46"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",

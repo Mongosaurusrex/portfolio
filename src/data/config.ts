@@ -176,9 +176,9 @@ export default {
       title: '(6.86) Machine Learning with Python-From Linear Models to Deep Learning',
       seat: 'Massachusetts Institute of Technology',
       description:
-      'This course provides a comprehensive exploration of machine learning principles and applications. It covers the full spectrum of machine learning, starting with linear models and extending to deep learning architectures. Key topics include supervised and unsupervised learning, support vector machines, neural networks, and optimization techniques. The course also emphasizes practical implementations using Python, enabling hands-on experience with real-world datasets and model development. Through rigorous exercises and projects, students gain a robust understanding of both the theory and application of modern machine learning techniques.',
+        'This course provides a comprehensive exploration of machine learning principles and applications. It covers the full spectrum of machine learning, starting with linear models and extending to deep learning architectures. Key topics include supervised and unsupervised learning, support vector machines, neural networks, and optimization techniques. The course also emphasizes practical implementations using Python, enabling hands-on experience with real-world datasets and model development. Through rigorous exercises and projects, students gain a robust understanding of both the theory and application of modern machine learning techniques.',
       date: '18th of May 2025',
-      link: 'https://courses.edx.org/certificates/ff5763af098847a89c6ab7b15994df28',
+      link: 'https://courses.edx.org/certificates/ff5763af098847a89c6ab7b15994df28'
     },
     {
       title: '(6.431) Probability - The Science of Uncertainty and Data',
@@ -204,5 +204,6 @@ export default {
       date: '29th of August 2024',
       link: 'https://coursera.org/share/2731641b2eacfaa2551551db8a770a18'
     }
-  ]
+  ],
+  posts: [{ title: "Tools That I Can't Live Without", date: '2025-06-16', id: "214740cb1a0b805e991fc788cb276cb8"}]
 };

@@ -1,6 +1,8 @@
 <script lang="ts" setup>
 import data from '@/data/config';
 import BackToHome from '@/components/BackToHome.vue';
+
+const posts = data.posts.reverse();
 </script>
 
 <template>

@@ -37,6 +37,10 @@ onMounted(async () => {
   color: hsla(160, 100%, 37%, 1) !important;
 }
 
+.notion-title span > span {
+  color: hsla(160, 100%, 37%, 1) !important;
+}
+
 .notion-h2{
   color: hsla(160, 100%, 37%, 1) !important;
 }

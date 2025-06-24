@@ -205,5 +205,16 @@ export default {
       link: 'https://coursera.org/share/2731641b2eacfaa2551551db8a770a18'
     }
   ],
-  posts: [{ title: "Tools That I Can't Live Without", date: '2025-06-16', id: "214740cb1a0b805e991fc788cb276cb8"}]
+  posts: [
+    {
+      title: "Tools That I Can't Live Without",
+      date: '2025-06-16',
+      id: '214740cb1a0b805e991fc788cb276cb8'
+    },
+    {
+      title: 'Here are the most UFO-Friendly states in the U.S',
+      date: '2025-06-24',
+      id: '21b740cb1a0b807e8c97c7f140feb018'
+    }
+  ]
 };

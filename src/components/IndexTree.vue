@@ -27,11 +27,11 @@ import IndexItem from './IndexItem.vue';
     What certificates have I earned and what skills do they represent?
   </IndexItem>
 
-  <IndexItem link="/posts">
+  <IndexItem link="/notes/index.html" :external="true">
     <template #icon>
-      <v-icon scale="1.5" name="bi-pencil-square" />
+      <v-icon scale="1.5" name="co-pencil" />
     </template>
-    <template #heading>Blog</template>
-    Sharing my thoughts and my ideas...
+    <template #heading>Notes</template>
+    A collection of evolving thoughts, learnings, and explorations.
   </IndexItem>
 </template>

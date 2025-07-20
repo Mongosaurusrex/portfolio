@@ -6,6 +6,12 @@
       <description>Last 10 notes on Nathans Note space</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>The Kolmogorov–Smirnov (KS) Test</title>
+    <link>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-smirnov</link>
+    <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-smirnov</guid>
+    <description><![CDATA[ The KS test is a non-parametric method used to determine whether a sample comes from a specific continuous distribution. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 21:21:23 GMT</pubDate>
+  </item><item>
     <title>Chi Squared Goodness of fit testing</title>
     <link>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/chi-squared-goodness-of-fit-testing</link>
     <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/chi-squared-goodness-of-fit-testing</guid>

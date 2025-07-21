@@ -1,0 +1,2 @@
+./scripts/build-notes.sh
+git add public/notes/*

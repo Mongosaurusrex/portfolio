@@ -6,29 +6,41 @@
       <description>Last 10 notes on Nathans Note space</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>bayesian-examples</title>
-    <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-examples</link>
-    <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-examples</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 29 Jul 2025 12:11:23 GMT</pubDate>
+    <title>Posterior</title>
+    <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-posterior</link>
+    <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-posterior</guid>
+    <description><![CDATA[ What Is a Posterior? The posterior distribution represents our updated belief about an unknown parameter \theta after we have observed data. ]]></description>
+    <pubDate>Wed, 30 Jul 2025 18:14:58 GMT</pubDate>
   </item><item>
     <title>Prior</title>
     <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-prior</link>
     <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-prior</guid>
     <description><![CDATA[ What Is a Prior? The prior expresses uncertainty about the true value of a parameter \theta before any data is observed. ]]></description>
-    <pubDate>Tue, 29 Jul 2025 12:11:10 GMT</pubDate>
+    <pubDate>Wed, 30 Jul 2025 18:14:38 GMT</pubDate>
+  </item><item>
+    <title>Bernoulli Distribution</title>
+    <link>https://https://dygant.com/notes/Statistics/Distributions/bernoulli</link>
+    <guid>https://https://dygant.com/notes/Statistics/Distributions/bernoulli</guid>
+    <description><![CDATA[ The Bernoulli distribution is one of the simplest and most fundamental probability distributions. ]]></description>
+    <pubDate>Wed, 30 Jul 2025 18:12:19 GMT</pubDate>
+  </item><item>
+    <title>beta</title>
+    <link>https://https://dygant.com/notes/Statistics/Distributions/beta</link>
+    <guid>https://https://dygant.com/notes/Statistics/Distributions/beta</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 30 Jul 2025 18:11:33 GMT</pubDate>
+  </item><item>
+    <title>binomial</title>
+    <link>https://https://dygant.com/notes/Statistics/Distributions/binomial</link>
+    <guid>https://https://dygant.com/notes/Statistics/Distributions/binomial</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 30 Jul 2025 18:11:08 GMT</pubDate>
   </item><item>
     <title>Bayesian Statistics</title>
     <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-inference</link>
     <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-inference</guid>
     <description><![CDATA[ The core idea behind Bayesian inference is to update our beliefs about an unknown parameter \theta after observing data. ]]></description>
     <pubDate>Tue, 29 Jul 2025 11:47:30 GMT</pubDate>
-  </item><item>
-    <title>bayesian-posterior</title>
-    <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-posterior</link>
-    <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-posterior</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Tue, 29 Jul 2025 11:32:49 GMT</pubDate>
   </item><item>
     <title>Bayes&#039; Theorem</title>
     <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayes-theorem</link>
@@ -53,18 +65,6 @@
     <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-smirnov</guid>
     <description><![CDATA[ The KS test is a non-parametric method used to determine whether a sample comes from a specific continuous distribution. ]]></description>
     <pubDate>Sun, 20 Jul 2025 21:21:23 GMT</pubDate>
-  </item><item>
-    <title>Chi Squared Goodness of fit testing</title>
-    <link>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/chi-squared-goodness-of-fit-testing</link>
-    <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/chi-squared-goodness-of-fit-testing</guid>
-    <description><![CDATA[ What is the purpose of the test Suppose you have a dataset, and you want to evaluate how well it aligns with a particular discrete probability distribution. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 21:00:21 GMT</pubDate>
-  </item><item>
-    <title>Here Are the Most UFO-Friendly States in the U.S.</title>
-    <link>https://https://dygant.com/notes/Stupid-data-science/ufo</link>
-    <guid>https://https://dygant.com/notes/Stupid-data-science/ufo</guid>
-    <description><![CDATA[  Where in America are you most likely to spot something strange in the sky — and actually report it? Each year, thousands of Americans file reports of unidentified flying objects. ]]></description>
-    <pubDate>Sat, 19 Jul 2025 21:23:40 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -6,6 +6,36 @@
       <description>Last 10 notes on Nathans Note space</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Maximum Likelihood Estimation (MLE)</title>
+    <link>https://https://dygant.com/notes/Statistics/Estimation/mle</link>
+    <guid>https://https://dygant.com/notes/Statistics/Estimation/mle</guid>
+    <description><![CDATA[ Maximum Likelihood Estimation (MLE) is a method to estimate unknown parameters of a probability distribution or statistical model. ]]></description>
+    <pubDate>Fri, 29 Aug 2025 11:15:35 GMT</pubDate>
+  </item><item>
+    <title>Walds Test</title>
+    <link>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/walds-test</link>
+    <guid>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/walds-test</guid>
+    <description><![CDATA[ The Wald test is a general method for testing hypotheses about model parameters, especially in maximum likelihood estimation (MLE). ]]></description>
+    <pubDate>Fri, 29 Aug 2025 10:56:25 GMT</pubDate>
+  </item><item>
+    <title>T-Test</title>
+    <link>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/t-test</link>
+    <guid>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/t-test</guid>
+    <description><![CDATA[ The Student’s t-distribution arises when we estimate the population mean from a sample, while also estimating the variance. ]]></description>
+    <pubDate>Thu, 28 Aug 2025 07:28:12 GMT</pubDate>
+  </item><item>
+    <title>P-values</title>
+    <link>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/p-value</link>
+    <guid>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/p-value</guid>
+    <description><![CDATA[ A p-value is the probability, under the assumption that the null hypothesis (H_0) is true, of obtaining data at least as extreme as what we observed. ]]></description>
+    <pubDate>Thu, 28 Aug 2025 07:28:05 GMT</pubDate>
+  </item><item>
+    <title>Hypothesis Testing</title>
+    <link>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/hypothesis-testing</link>
+    <guid>https://https://dygant.com/notes/Statistics/Hypothesis-Testing/hypothesis-testing</guid>
+    <description><![CDATA[ At the core of statistics lie the questions we pose to data. Hypothesis testing provides a structured way to ask and answer these questions. ]]></description>
+    <pubDate>Wed, 27 Aug 2025 18:57:14 GMT</pubDate>
+  </item><item>
     <title>Posterior</title>
     <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-posterior</link>
     <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-posterior</guid>
@@ -35,36 +65,6 @@
     <guid>https://https://dygant.com/notes/Statistics/Distributions/binomial</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Wed, 30 Jul 2025 18:11:08 GMT</pubDate>
-  </item><item>
-    <title>Bayesian Statistics</title>
-    <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-inference</link>
-    <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayesian-inference</guid>
-    <description><![CDATA[ The core idea behind Bayesian inference is to update our beliefs about an unknown parameter \theta after observing data. ]]></description>
-    <pubDate>Tue, 29 Jul 2025 11:47:30 GMT</pubDate>
-  </item><item>
-    <title>Bayes&#039; Theorem</title>
-    <link>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayes-theorem</link>
-    <guid>https://https://dygant.com/notes/Statistics/Bayesian-Statistics/bayes-theorem</guid>
-    <description><![CDATA[ When you’re talking about statistics, it’s impossible not to see the direct connection to probability. ]]></description>
-    <pubDate>Mon, 21 Jul 2025 20:13:55 GMT</pubDate>
-  </item><item>
-    <title>QQ-Plots</title>
-    <link>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/qq-plots</link>
-    <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/qq-plots</guid>
-    <description><![CDATA[ A QQ-plot (Quantile–Quantile plot) is a graphical tool used to assess whether your sample data comes from a specific theoretical distribution — most commonly, the normal distribution. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 21:42:19 GMT</pubDate>
-  </item><item>
-    <title>The Kolmogorov-Lilliefors Test</title>
-    <link>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-lilliefors</link>
-    <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-lilliefors</guid>
-    <description><![CDATA[ The Lilliefors test is a modification of the Kolmogorov–Smirnov (KS) test that accounts for the fact that we often don’t know the population mean and variance in advance — and instead estimate them from the sample. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 21:30:17 GMT</pubDate>
-  </item><item>
-    <title>The Kolmogorov–Smirnov (KS) Test</title>
-    <link>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-smirnov</link>
-    <guid>https://https://dygant.com/notes/Statistics/Nonparametric-Hypothesis-testing/kolmogorov-smirnov</guid>
-    <description><![CDATA[ The KS test is a non-parametric method used to determine whether a sample comes from a specific continuous distribution. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 21:21:23 GMT</pubDate>
   </item>
     </channel>
   </rss>

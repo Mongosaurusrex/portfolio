@@ -173,6 +173,14 @@ export default {
   ],
   certificates: [
     {
+      title: '(18.6501) Fundamentals of Statistics',
+      seat: 'Massachusetts Institute of Technology',
+      description:
+        'This course provides a rigorous introduction to the theoretical foundations of statistical inference. It emphasizes the construction and analysis of statistical methods—covering parametric estimation, confidence intervals, hypothesis testing, Bayesian inference, and regression—using mathematical language for intuition and derivations. Through this approach, students build both a solid mathematical understanding of core concepts and the ability to apply them to real-world data analysis.',
+      date: '3rd of September 2025',
+      link: 'https://courses.edx.org/certificates/f3fd0720337a47cd99d15d8eae777d9c'
+    },
+    {
       title: '(6.86) Machine Learning with Python-From Linear Models to Deep Learning',
       seat: 'Massachusetts Institute of Technology',
       description:
@@ -203,18 +211,6 @@ export default {
         'This course provides a solid introduction to the fundamentals of calculus, covering core concepts and their applications to a variety of mathematical problems. Through practical examples and exercises, it emphasizes both understanding and skill-building, making it an excellent foundation for further studies in mathematics and related fields.',
       date: '29th of August 2024',
       link: 'https://coursera.org/share/2731641b2eacfaa2551551db8a770a18'
-    }
-  ],
-  posts: [
-    {
-      title: "Tools That I Can't Live Without",
-      date: '2025-06-16',
-      id: '214740cb1a0b805e991fc788cb276cb8'
-    },
-    {
-      title: 'Here are the most UFO-Friendly states in the U.S',
-      date: '2025-06-24',
-      id: '21b740cb1a0b807e8c97c7f140feb018'
     }
   ]
 };

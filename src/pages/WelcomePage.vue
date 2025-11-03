@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router';
         <div class="greetings">
           <h1 class="green">I'm Nathan!</h1>
           <h3>
-            As a data scientist/engineer with a passion for statistics and machine learning, I am dedicated
+            As a data scientist with a passion for statistics and machine learning, I am dedicated
             to leverage data-driven methodologies to solve real-world problems and drive impactful
             decision-making.
           </h3>

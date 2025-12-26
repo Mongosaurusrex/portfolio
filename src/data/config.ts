@@ -197,6 +197,14 @@ export default {
       link: 'https://courses.edx.org/certificates/a54052df661c415ab580db7b3184ef33'
     },
     {
+      title: '(14.310) Data Analysis for Social Scientists',
+      seat: 'Massachusetts Institute of Technology',
+      description:
+        'This course focuses on applying statistical and econometric methods to real-world social science problems. It emphasizes causal inference, regression analysis, experimental and observational study design, and interpretation of empirical results. Students learn how to reason about data using modern statistical tools, assess assumptions behind models, and draw meaningful conclusions from imperfect real-world datasets, with a strong focus on practical implementation and critical thinking.',
+      date: '23rd of December 2025',
+      link: 'https://courses.edx.org/certificates/af495d6726644d3d943db15a1d6ce315'
+    },
+    {
       title: 'Introduction to linear algebra',
       seat: 'University of Sydney',
       description:

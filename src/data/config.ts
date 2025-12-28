@@ -25,9 +25,32 @@ export default {
   availableForAssignments: false,
   experiences: [
     {
+      jobTitle: 'Data Scientist – AI Center',
+      company: 'Region Uppsala',
+      dateRange: 'January 2026 - Present',
+      link: 'https://www.regionuppsala.se',
+      description: {
+        body: 'Region Uppsala is establishing a centralized AI Center to act as the organization’s expert function for responsible and value-driven use of Artificial Intelligence across healthcare and public services. The AI Center supports the full lifecycle of AI systems, from ideation and development to deployment, governance, and long-term sustainability. As a Data Scientist, I work with both technical and organizational aspects of AI to ensure solutions are effective, compliant, and ethically sound.',
+        bullets: [
+          'Designing and implementing end-to-end analytical and machine learning solutions, from data exploration to production-ready models.',
+          'Developing predictive models and decision-support systems tailored to regional and operational needs.',
+          'Supporting the full AI lifecycle, including validation, monitoring, documentation, and long-term maintenance.',
+          'Ensuring compliance with the EU AI Act and internal governance frameworks, including risk assessment and model transparency.',
+          'Evaluating model performance and real-world impact together with domain experts and stakeholders.',
+          'Supporting procurement processes and partner evaluations related to AI systems and data platforms.',
+          'Contributing to the development of responsible AI practices, including ethical considerations and sustainable system design.'
+        ],
+        body2:
+          'The role combines applied data science with public-sector responsibility, requiring both strong technical expertise and the ability to work within regulated, high-impact environments.'
+      },
+      buzzwords:
+        'Data Science, Machine Learning, Responsible AI, AI Governance, EU AI Act, Python, MLOps, Model Validation, Data Engineering, Generative AI, RAG, CI/CD, Containers'
+    },
+
+    {
       jobTitle: 'Data and Insights Team Lead',
       company: 'Quizrr',
-      dateRange: 'February 2022 - Present',
+      dateRange: 'February 2022 - December 2025',
       link: 'https://www.quizrr.se',
       description: {
         body: 'Quizrr is a company focused on driving positive change in supply chains across various industries by delivering tailored training content. The platform aims to address injustices and create measurable impact in ethically challenging areas. As the Data and Insights Team Lead, I am responsible for leading efforts to quantify and demonstrate the impact of Quizrr’s training content. My responsibilities include:',

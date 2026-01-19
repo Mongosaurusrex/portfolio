@@ -25,7 +25,7 @@ export default {
   availableForAssignments: false,
   experiences: [
     {
-      jobTitle: 'Data Scientist – AI Center',
+      jobTitle: 'Data Scientist',
       company: 'Region Uppsala',
       dateRange: 'January 2026 - Present',
       link: 'https://www.regionuppsala.se',
@@ -196,6 +196,7 @@ export default {
   ],
   certificates: [
     {
+      id: 'mit-statistics',
       title: '(18.6501) Fundamentals of Statistics',
       seat: 'Massachusetts Institute of Technology',
       description:
@@ -204,6 +205,7 @@ export default {
       link: 'https://courses.edx.org/certificates/f3fd0720337a47cd99d15d8eae777d9c'
     },
     {
+      id: 'mit-ml',
       title: '(6.86) Machine Learning with Python-From Linear Models to Deep Learning',
       seat: 'Massachusetts Institute of Technology',
       description:
@@ -212,6 +214,7 @@ export default {
       link: 'https://courses.edx.org/certificates/ff5763af098847a89c6ab7b15994df28'
     },
     {
+      id: 'mit-probability',
       title: '(6.431) Probability - The Science of Uncertainty and Data',
       seat: 'Massachusetts Institute of Technology',
       description:
@@ -220,6 +223,7 @@ export default {
       link: 'https://courses.edx.org/certificates/a54052df661c415ab580db7b3184ef33'
     },
     {
+      id: 'mit-data-analysis',
       title: '(14.310) Data Analysis for Social Scientists',
       seat: 'Massachusetts Institute of Technology',
       description:
@@ -228,11 +232,37 @@ export default {
       link: 'https://courses.edx.org/certificates/af495d6726644d3d943db15a1d6ce315'
     },
     {
+      id: 'mml-pca',
+      title: 'Mathematics for Machine Learning: PCA',
+      seat: 'Imperial College London',
+      description:
+        'This course focuses on dimensionality reduction and data representation using Principal Component Analysis (PCA). It develops the mathematical foundations behind eigenvalues, eigenvectors, covariance matrices, and singular value decomposition (SVD), and shows how these concepts are used to identify structure in high-dimensional data. The course emphasizes geometric intuition, mathematical derivations, and practical interpretation of PCA results.',
+      date: '3rd of January 2026',
+      link: 'https://coursera.org/share/dd6a7d6f99855d4079adaa1ac2cc732d'
+    },
+    {
+      id: 'mml-linear-algebra',
+      title: 'Mathematics for Machine Learning: Linear Algebra',
+      seat: 'Imperial College London',
+      description: 'This course provides a rigorous introduction to linear algebra with a focus on applications in machine learning. Topics include vectors, matrices, linear transformations, matrix multiplication, rank, eigenvalues and eigenvectors, and orthogonality. Emphasis is placed on geometric intuition and how linear algebra underpins common machine learning algorithms such as linear regression, PCA, and neural networks.',
+      date: 'December 2, 2025',
+      link: 'https://coursera.org/share/6a6c1112748486c388c84600df383084'
+    },
+    {
+      id: 'mml-calculus',
+      title: 'Mathematics for Machine Learning: Multivariate Calculus',
+      seat: 'Imperial College London',
+      description:
+      'This course introduces multivariate calculus with an emphasis on optimization and machine learning applications. It covers partial derivatives, gradients, Jacobians, Hessians, and constrained optimization. The course builds intuition for how calculus is used to train machine learning models, analyze loss functions, and understand gradient-based optimization methods.',
+      date: 'December 29, 2025',
+      link: 'https://coursera.org/share/44cd87bed2a3cf76489b27d9e108626d'
+    },
+    {
       title: 'Introduction to linear algebra',
       seat: 'University of Sydney',
       description:
         'This course provides a solid introduction to the fundamentals of linear algebra, covering core concepts and their applications to a variety of mathematical problems. Through practical examples and exercises, it emphasizes both understanding and skill-building, making it an excellent foundation for further studies in mathematics and related fields',
-      date: '23rd of January 2025',
+      date: 'January 23 2025',
       link: 'https://coursera.org/share/dba52bde502cccbc75a9855df486ed54'
     },
     {
@@ -242,6 +272,34 @@ export default {
         'This course provides a solid introduction to the fundamentals of calculus, covering core concepts and their applications to a variety of mathematical problems. Through practical examples and exercises, it emphasizes both understanding and skill-building, making it an excellent foundation for further studies in mathematics and related fields.',
       date: '29th of August 2024',
       link: 'https://coursera.org/share/2731641b2eacfaa2551551db8a770a18'
+    }
+  ],
+  academic: [
+    {
+      title: 'MicroMasters in Statistics and Data Science',
+      institution: 'Massachusetts Institute of Technology',
+      date: 'Ongoing',
+      description:
+        'Graduate-level MicroMasters program covering probability theory, statistical inference, machine learning, and applied data analysis. The program emphasizes mathematical rigor, principled modeling, and practical application through graded problem sets and proctored exams.',
+      includedCourses: [
+        { id: 'mit-probability', label: '6.431' },
+        { id: 'mit-statistics', label: '18.6501' },
+        { id: 'mit-ml', label: '6.86' },
+        { id: 'mit-data-analysis', label: '14.310' }
+      ]
+    },
+    {
+      title: 'Mathematics for Machine Learning',
+      institution: 'Imperial College London',
+      date: '3rd of January 2026',
+      link: 'https://coursera.org/share/e2cddd0f0bce5494daae3f6344ac8ed9',
+      description:
+        'Foundational mathematics program for machine learning, focusing on linear algebra, multivariate calculus, and dimensionality reduction.',
+      includedCourses: [
+        { id: 'mml-linear-algebra', label: 'Linear Algebra' },
+        { id: 'mml-calculus', label: 'Multivariate Calculus' },
+        { id: 'mml-pca', label: 'PCA & Dimensionality Reduction' }
+      ]
     }
   ]
 };

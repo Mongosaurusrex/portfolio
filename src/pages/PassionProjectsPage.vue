@@ -10,6 +10,7 @@ const { result, loading, error } = useQuery(GET_PINNED_REPOS);
 <template>
   <div class="wrapper">
     <BackToHome />
+    <RouterLink to="/allsvenskan-predictions" class="featured-link"> ⚽ Football Predictions → </RouterLink>
     <div>
       <div v-if="loading" class="loader">
         <v-icon scale="3" class="green spinner" name="pr-spinner" />
@@ -61,5 +62,19 @@ const { result, loading, error } = useQuery(GET_PINNED_REPOS);
   100% {
     transform: rotate(360deg);
   }
+}
+.featured-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  color: #42b883;
+  text-decoration: none;
+}
+
+.featured-link:hover {
+  text-decoration: underline;
 }
 </style>

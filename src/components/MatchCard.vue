@@ -20,6 +20,9 @@ interface Prediction {
   p_away_advance?: number
 
   scoreline_probs?: Record<string, number>
+  unknown_team: boolean
+  unknown_home: boolean
+  unknown_away: boolean
 }
 
 const props = defineProps<{
@@ -42,7 +45,7 @@ const best = computed(() => {
 </script>
 
 <template>
-  <div class="match-card">
+  <div class="match-card" :class="{ uncertain: match.unknown_team }">
 
     <!-- HEADER -->
     <div class="match-header">
@@ -51,15 +54,26 @@ const best = computed(() => {
         {{ match.home_team }} vs {{ match.away_team }}
       </h2>
 
-      <span
-        v-if="match.competition_format === 'knockout'"
-        class="tag"
-      >
-        Knockout
+      <span v-if="match.competition_format === 'knockout'" class="tag">
+        Svenska Cupen (Relegation)
+      </span>
+
+      <span v-if="match.competition_format === 'league'" class="tag">
+        Allsvenskan
       </span>
 
     </div>
-
+    <div v-if="match.unknown_team" class="warning">
+      <span v-if="match.unknown_home && match.unknown_away">
+        ⚠️ Both teams lack historical data. Predictions rely on baseline assumptions.
+      </span>
+      <span v-else-if="match.unknown_home">
+        ⚠️ {{ match.home_team }} lacks historical data. Prediction is less reliable.
+      </span>
+      <span v-else>
+        ⚠️ {{ match.away_team }} lacks historical data. Prediction is less reliable.
+      </span>
+    </div>
     <!-- CONTENT GRID -->
     <div class="content">
 
@@ -67,27 +81,17 @@ const best = computed(() => {
       <div class="left">
 
         <!-- League probabilities -->
-        <OutcomeDensity
-          v-if="match.competition_format === 'league'"
-          :home="match.p_home_win"
-          :draw="match.p_draw"
-          :away="match.p_away_win"
-        />
+        <OutcomeDensity v-if="match.competition_format === 'league'" :home="match.p_home_win" :draw="match.p_draw"
+          :away="match.p_away_win" />
 
         <!-- Knockout probabilities -->
-        <div
-          v-if="match.competition_format === 'knockout'"
-          class="advance"
-        >
+        <div v-if="match.competition_format === 'knockout'" class="advance">
 
           <div class="row">
             <span>{{ match.home_team }}</span>
 
             <div class="bar">
-              <div
-                class="fill home"
-                :style="{ width: (match.p_home_advance * 100) + '%' }"
-              ></div>
+              <div class="fill home" :style="{ width: (match.p_home_advance * 100) + '%' }"></div>
             </div>
 
             <span>
@@ -99,10 +103,7 @@ const best = computed(() => {
             <span>{{ match.away_team }}</span>
 
             <div class="bar">
-              <div
-                class="fill away"
-                :style="{ width: (match.p_away_advance * 100) + '%' }"
-              ></div>
+              <div class="fill away" :style="{ width: (match.p_away_advance * 100) + '%' }"></div>
             </div>
 
             <span>
@@ -130,18 +131,13 @@ const best = computed(() => {
       </div>
 
       <!-- RIGHT SIDE (HEATMAP) -->
-      <div
-        v-if="match.scoreline_probs"
-        class="right"
-      >
+      <div v-if="match.scoreline_probs" class="right">
 
         <div class="heatmap-title">
           Score distribution (90 min)
         </div>
 
-        <ScoreHeatmap
-          :scoreline_probs="match.scoreline_probs"
-        />
+        <ScoreHeatmap :scoreline_probs="match.scoreline_probs" />
 
       </div>
 
@@ -151,7 +147,6 @@ const best = computed(() => {
 </template>
 
 <style scoped>
-
 /* ========================= */
 /* CARD */
 /* ========================= */
@@ -244,8 +239,13 @@ const best = computed(() => {
   height: 100%;
 }
 
-.home { background: #16a34a; }
-.away { background: #2563eb; }
+.home {
+  background: #16a34a;
+}
+
+.away {
+  background: #2563eb;
+}
 
 /* ========================= */
 /* HEATMAP */
@@ -259,9 +259,33 @@ const best = computed(() => {
 
 @media (max-width: 768px) {
   .content {
-    grid-template-columns: 1fr;   /* stack */
+    grid-template-columns: 1fr;
+    /* stack */
     gap: 1rem;
   }
 }
 
+.match-header {
+  margin-bottom: 0.3rem;
+  /* slightly tighter */
+}
+
+.warning {
+  margin-bottom: 1rem;
+  /* more separation */
+}
+
+.uncertain {
+  opacity: 0.85;
+}
+
+.warning {
+  margin-bottom: 0.8rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  background: rgba(255, 180, 0, 0.1);
+  color: #b45309; /* amber-ish */
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
 </style>

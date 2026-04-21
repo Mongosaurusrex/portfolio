@@ -10,7 +10,7 @@ const error = ref<string | null>(null);
 onMounted(async () => {
   try {
     const res = await fetch(
-      'https://mongosaurusrex.github.io/allsvenskan-predictor/predictions.json'
+      'https://mongosaurusrex.github.io/allsvenskan-predictor/coming_predictions.json'
     );
 
     predictions.value = await res.json();

@@ -13,7 +13,8 @@ import {
   BiGithub,
   BiLinkedin,
   CoKaggle,
-  CoPencil
+  IoFootball,
+  LaBrainSolid
 } from 'oh-vue-icons/icons';
 import { DefaultApolloClient } from '@vue/apollo-composable';
 
@@ -32,7 +33,8 @@ addIcons(
   BiGithub,
   BiLinkedin,
   CoKaggle,
-  CoPencil
+  IoFootball,
+  LaBrainSolid
 );
 
 createApp({

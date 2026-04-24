@@ -6,6 +6,7 @@ import PassionProjectsPage from './pages/PassionProjectsPage.vue';
 import ContactPage from './pages/ContactPage.vue';
 import Accomplishments from './pages/Accomplishments.vue';
 import PredictionsPage from './pages/PredictionsPage.vue';
+import UnderConstructionPage from './pages/UnderConstructionPage.vue';
 
 const routes = [
   { path: '/', name: 'home', component: WelcomePage },
@@ -14,6 +15,7 @@ const routes = [
   { path: '/certificates', name: 'certificates', component: Accomplishments },
   { path: '/contact', name: 'contact', component: ContactPage },
   { path: '/allsvenskan-predictions', name: 'allsvenskan-predictions', component: PredictionsPage },
+  { path: '/knowledge-engine', name: 'knowledge-engine', component: UnderConstructionPage },
 ];
 
 const router = createRouter({

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
+import { RouterLink } from 'vue-router';
 import MatchCard from '../components/MatchCard.vue';
 import BackToHome from '../components/BackToHome.vue';
 import SeasonSnapshot from '../components/SeasonSnapshot.vue';
@@ -107,6 +108,11 @@ function selectTeam(team: unknown) {
           >
             Learn more here →
           </a>
+          <div>
+            <RouterLink to="/passion-projects" class="other-projects-link">
+              See other passion projects →
+            </RouterLink>
+          </div>
         </div>
       </div>
     </header>
@@ -296,6 +302,18 @@ function selectTeam(team: unknown) {
 }
 
 .repo-link:hover {
+  text-decoration: underline;
+}
+
+.other-projects-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #42b883;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.other-projects-link:hover {
   text-decoration: underline;
 }
 

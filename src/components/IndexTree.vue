@@ -11,14 +11,6 @@ import IndexItem from './IndexItem.vue';
     Where have I been working and what have I been doing?
   </IndexItem>
 
-  <IndexItem link="/passion-projects">
-    <template #icon>
-      <v-icon scale="1.5" name="fa-project-diagram" />
-    </template>
-    <template #heading>Passion projects</template>
-    What have I been working on in my free time?
-  </IndexItem>
-
   <IndexItem link="/certificates">
     <template #icon>
       <v-icon scale="1.5" name="la-certificate-solid" />
@@ -27,11 +19,19 @@ import IndexItem from './IndexItem.vue';
     What certificates have I earned and what skills do they represent?
   </IndexItem>
 
-  <IndexItem link="/notes/index.html" :external="true">
+  <IndexItem link="/allsvenskan-predictions">
     <template #icon>
-      <v-icon scale="1.5" name="co-pencil" />
+      <v-icon scale="1.5" name="io-football" />
     </template>
-    <template #heading>Notes</template>
-    A collection of evolving thoughts, learnings, and explorations.
+    <template #heading>Football predictions</template>
+    Probabilistic forecasts for upcoming Allsvenskan matches and season outcomes.
+  </IndexItem>
+
+  <IndexItem link="/knowledge-engine">
+    <template #icon>
+      <v-icon scale="1.5" name="la-brain-solid" />
+    </template>
+    <template #heading>Knowledge Engine</template>
+    A future home for retrieval-augmented workflows and applied experiments.
   </IndexItem>
 </template>

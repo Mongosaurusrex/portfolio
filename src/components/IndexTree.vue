@@ -27,11 +27,11 @@ import IndexItem from './IndexItem.vue';
     Probabilistic forecasts for upcoming Allsvenskan matches and season outcomes.
   </IndexItem>
 
-  <IndexItem link="/knowledge-engine">
+  <IndexItem link="/abacus-llm">
     <template #icon>
       <v-icon scale="1.5" name="la-brain-solid" />
     </template>
-    <template #heading>Knowledge Engine</template>
-    A future home for retrieval-augmented workflows and applied experiments.
+    <template #heading>abacusLLM</template>
+    Building an LLM from scratch, with plans to host the project here when it is ready.
   </IndexItem>
 </template>

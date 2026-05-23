@@ -15,7 +15,8 @@ const routes = [
   { path: '/certificates', name: 'certificates', component: Accomplishments },
   { path: '/contact', name: 'contact', component: ContactPage },
   { path: '/allsvenskan-predictions', name: 'allsvenskan-predictions', component: PredictionsPage },
-  { path: '/knowledge-engine', name: 'knowledge-engine', component: UnderConstructionPage },
+  { path: '/abacus-llm', name: 'abacus-llm', component: UnderConstructionPage },
+  { path: '/knowledge-engine', redirect: '/abacus-llm' },
 ];
 
 const router = createRouter({

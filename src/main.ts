@@ -17,6 +17,7 @@ import {
   LaBrainSolid
 } from 'oh-vue-icons/icons';
 import { DefaultApolloClient } from '@vue/apollo-composable';
+import { createHead } from '@unhead/vue';
 
 import App from './App.vue';
 import router from './router';
@@ -45,5 +46,6 @@ createApp({
   render: () => h(App)
 })
   .use(router)
+  .use(createHead())
   .component('v-icon', OhVueIcon)
   .mount('#app');

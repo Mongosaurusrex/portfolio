@@ -11,8 +11,8 @@ useHead({ meta: [{ name: 'robots', content: 'noindex' }] });
     <h1 class="green">DX-Ball</h1>
     <iframe
       src="https://dx-ball.ru/iframe.html"
-      width="640"
-      height="480"
+      width="800"
+      height="600"
       allow="fullscreen; autoplay"
       title="DX-Ball"
     ></iframe>
@@ -22,7 +22,7 @@ useHead({ meta: [{ name: 'robots', content: 'noindex' }] });
 
 <style scoped>
 .game-page {
-  width: min(640px, 100%);
+  width: min(800px, 100%);
 }
 
 iframe {

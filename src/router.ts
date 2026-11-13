@@ -7,6 +7,7 @@ import ContactPage from './pages/ContactPage.vue';
 import Accomplishments from './pages/Accomplishments.vue';
 import PredictionsPage from './pages/PredictionsPage.vue';
 import UnderConstructionPage from './pages/UnderConstructionPage.vue';
+import DxBallPage from './pages/DxBallPage.vue';
 
 const routes = [
   {
@@ -70,6 +71,15 @@ const routes = [
     meta: {
       title: 'AbacusLLM | Nathan Dygant',
       description: 'abacusLLM is an LLM project built from scratch by Nathan Dygant. Coming soon.'
+    }
+  },
+  {
+    path: '/dx-ball',
+    name: 'dx-ball',
+    component: DxBallPage,
+    meta: {
+      title: 'DX-Ball | Nathan Dygant',
+      description: 'Play DX-Ball online.'
     }
   },
   { path: '/knowledge-engine', redirect: '/abacus-llm' },

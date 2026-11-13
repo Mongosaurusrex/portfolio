@@ -24,10 +24,24 @@ import { RouterLink } from 'vue-router';
     <main>
       <IndexTree />
     </main>
+    <RouterLink class="game-link" to="/dx-ball">DX-Ball</RouterLink>
   </div>
 </template>
 
 <style scoped>
+.game-link {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.game-link:hover,
+.game-link:focus-visible {
+  opacity: 1;
+}
+
 header {
   line-height: 1.5;
 }
